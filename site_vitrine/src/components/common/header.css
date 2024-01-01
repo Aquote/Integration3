@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.gcam-navbar {
+    background-color: #ffffff;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    height: 60px;
+    border-radius: 0 0 10px 10px ;
+    box-shadow: 0 0 10px #a4a8a8;
+    color: black;
+}
+
+.gcam-navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.gcam-navbar a {
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+}
+
+.gcam-title {
+    font-size: 2rem;
+}
+
+.gcam-logo {
+    size: 1.5rem;
+}
+
+.gcam-navbar li.active {
+    background-color: #666;
+}
+
+.gcam-navbar li:hover {
+    color: #666;
+}

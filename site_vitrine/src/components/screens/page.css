@@ -1,0 +1,57 @@
+.div {
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titre_div {
+    text-decoration: underline;
+    color : #00ADD4;
+    margin-top: 0.5%;
+    font-size: x-large;
+}
+
+.text{
+    
+    font-size: medium;
+    margin: 0 25%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.text p{
+    margin: 2%;
+}
+.bouton {
+    display: flex;
+    justify-content: center;
+    background-color: #00ADD4;
+    color: white;
+    padding: 12px 24px; 
+    border-radius: 9999px; 
+    text-align: center;
+    width: 50%; 
+    margin: 0 auto; 
+    cursor: pointer;
+  }
+  
+  .bouton:hover {
+    background-color: #064553; /* Change la couleur de fond au survol */
+  }
+
+.lien{
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.liste {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.role {
+    color : gray;
+}
